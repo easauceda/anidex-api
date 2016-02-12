@@ -9,7 +9,8 @@ app.get('/horse', function(req, res) {
 		'name': 'Horse',
 		'sciName': 'Equus ferus caballus',
 		'origin': 'The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Hyracotherium, into the large, single-toed animal of today.',
-		'description': 'The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae. Worldwide, horses play a role within human cultures and have done so for millennia. Horses are used for leisure activities, sports, and working purposes.'
+		'description': 'The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae. Worldwide, horses play a role within human cultures and have done so for millennia. Horses are used for leisure activities, sports, and working purposes.',
+		'imageUrl': 'http://liiife.liiif3ltd.netdna-cdn.com/wp-content/uploads/2015/05/horses.jpg'
 	};
 	res.json(horse_info);
 });
