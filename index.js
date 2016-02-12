@@ -2,6 +2,7 @@ var express = require('express');
 var port = 3000;
 var app = express();
 
+app.set('json spaces', 2);
 
 app.get('/horse', function(req, res) {
 	horse_info = {
