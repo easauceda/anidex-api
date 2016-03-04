@@ -10,7 +10,7 @@ app.get('/cobra', function(req, res) {
 		'sciName': 'Equus ferus caballus',
 		'origin': 'The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Hyracotherium, into the large, single-toed animal of today.',
 		'description': 'The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae. Worldwide, horses play a role within human cultures and have done so for millennia. Horses are used for leisure activities, sports, and working purposes.',
-		'imageUrl': 'http://www.dupageforest.com/uploadedImages/Content/Conservation/DuPage_Plants_and_Wildlife/Amphibians_and_Reptiles/Snakes/Plains-Garter-Snake.png'
+		'imageUrl': 'http://www.hdwallpaperscool.com/wp-content/uploads/2013/12/snake-hd-wallpapers-beautiful-desktop-background-photographs-widescreen.jpg'
 	};
 	res.json(cobra_info);
 });
@@ -21,7 +21,7 @@ app.get('/turtle', function(req, res) {
 		'sciName': 'Equus ferus caballus',
 		'origin': 'The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Hyracotherium, into the large, single-toed animal of today.',
 		'description': 'The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae. Worldwide, horses play a role within human cultures and have done so for millennia. Horses are used for leisure activities, sports, and working purposes.',
-		'imageUrl': 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Florida_Box_Turtle_Digon3a.jpg'
+		'imageUrl': 'http://vignette4.wikia.nocookie.net/animaljam/images/3/33/Green_Sea_Turtle.jpg/revision/latest?cb=20140704134453'
 	};
 	res.json(turtle_info);
 });
@@ -32,7 +32,7 @@ app.get('/cattle', function(req, res) {
 		'sciName': 'Equus ferus caballus',
 		'origin': 'The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Hyracotherium, into the large, single-toed animal of today.',
 		'description': 'The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae. Worldwide, horses play a role within human cultures and have done so for millennia. Horses are used for leisure activities, sports, and working purposes.',
-		'imageUrl': 'https://upload.wikimedia.org/wikipedia/commons/d/d4/CH_cow_2_cropped.jpg'
+		'imageUrl': 'https://richarddaybell.files.wordpress.com/2012/11/cow1.jpg'
 	};
 	res.json(cattle_info);
 });
