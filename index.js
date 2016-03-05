@@ -1,9 +1,7 @@
 var express = require('express');
 var port = 3000;
 var app = express();
-​
 app.set('json spaces', 2);
-​
 app.get('/cobra', function(req, res) {
 	cobra_info = {
 		'name': 'Snake',
@@ -14,7 +12,6 @@ app.get('/cobra', function(req, res) {
 	};
 	res.json(cobra_info);
 });
-​
 app.get('/turtle', function(req, res) {
 	turtle_info = {
 		'name': 'Turtle',
@@ -25,7 +22,6 @@ app.get('/turtle', function(req, res) {
 	};
 	res.json(turtle_info);
 });
-​
 app.get('/cattle', function(req, res) {
 	cattle_info = {
 		'name': 'Cow',
@@ -36,9 +32,6 @@ app.get('/cattle', function(req, res) {
 	};
 	res.json(cattle_info);
 });
-​
-​
-​
 app.listen(port, function(){
 	console.log('Listening on ' + port);
 });
