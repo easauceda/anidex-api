@@ -2,7 +2,7 @@ var express = require('express');
 var port = 3000;
 var app = express();
 app.set('json spaces', 2);
-app.get('/cobra', function(req, res) {
+app.get('/snake', function(req, res) {
 	cobra_info = {
 		'name': 'Snake',
 		'sciName': 'Serpentes',
